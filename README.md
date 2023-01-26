@@ -12,18 +12,11 @@ User-item summary:
 	Calculate the score for all items for a specific user.
 	Sort by the n highest scores (most recommended)
 Machine Learning Methods: 
-	SVD, NMF, SlopeOne, KNNBasic, KNNWithMeans, KNNBaseline, CoClustering, BaselineOnly, NormalPredictor
+	KNN, Logistic Regression, Support Vector Machine, Decision Tree, Bagging DT, Boosting DT, Random Forest Ens
 
-Attached you can find the Jupyter notebook.
 
-	Model	Train Accuracy	Test Accuracy	Max CrossVal	Timespan
-	Boosting DT	0.922465	0.894737	0.880716	0:00:00.044
-	Random Forest Ens	0.954274	0.891228	0.880716	0:00:00.072
-	Logistic Regression	0.876740	0.880702	0.882704	0:00:00.022
-	Bagging DT	0.952286	0.863158	0.890656	0:00:00.040
-	Support Vector Machine	0.835785	0.859649	0.852883	0:00:00.004
-	KNN	0.881511	0.856140	0.831014	0:00:00.003
-	Decision Tree	1.000000	0.831579	0.868787	0:00:00.008
+
+Here you can find the comparisono between ddifferent methods:
 
 <img width="676" alt="image" src="https://user-images.githubusercontent.com/59935915/214961231-af75f137-43fe-429a-9216-b3043037aecb.png">
 
